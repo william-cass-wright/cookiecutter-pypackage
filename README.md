@@ -75,15 +75,14 @@ This repo is forked from [zillionare/python-project-wizard](https://github.com/z
 
 
 ## Other Projects Evaluated
-
-| full_name | created_at | updated_at  | size | stargazers_count |
-|-------------------------------------------------------|---------------------------------------------------------------------------------|----|------------------|----|-------------|
-| [TezRomacH/python-package-template](https//api.github.com/repos/TezRomacH/python-package-template)            |2020-04-15 14         | 53 | 29 2022-07-17 4  | 12 | 04 1318    763 |
-| [audreyfeldroy/cookiecutter-pypackage](https//api.github.com/repos/audreyfeldroy/cookiecutter-pypackage)      |2013-07-14 18      | 52 | 05    2022-07-17 2  | 31 | 21 557 3539 |
-| [boromir674/cookiecutter-python-package](https//api.github.com/repos/boromir674/cookiecutter-python-package)  |2022-04-21 1     | 33 | 49  2022-07-04 11 | 48 | 59 451 3    |
-| [simonw/click-app-template-repository](https//api.github.com/repos/simonw/click-app-template-repository)      |2021-08-30 1       | 03 | 34    2022-07-17 2  | 01 | 39 12  8     |
-| [timhughes/cookiecutter-poetry](https//api.github.com/repos/timhughes/cookiecutter-poetry)                    |2020-09-22 15             | 08 | 49 2022-07-04 8  | 11 | 05 117 5    |
-| [waynerv/cookiecutter-pypackage](https//api.github.com/repos/waynerv/cookiecutter-pypackage)                  |2021-05-19 9             | 43 | 34  2022-07-16 3  | 21 | 52 984 44   |
-| [zillionare/python-project-wizard](https//api.github.com/repos/zillionare/python-project-wizard)              |2021-04-10 14          | 46 | 32    2022-06-28 9  | 15 | 24 946 55   |
-| [william-cass-wright/cookiecutter-click-app](https//api.github.com/repos/william-cass-wright/cookiecutter-click-app)    |2022-06-20 6 | 53 | 50  2022-07-17 5  | 58 | 45 37  0     |
-| [william-cass-wright/cookiecutter-pypackage](https//api.github.com/repos/william-cass-wright/cookiecutter-pypackage)    |2022-07-14 8 | 45 | 28  2022-07-17 5  | 52 | 53 984 0    |
+|    | repo                                                                                                                  | created_at          | updated_at          |   size |   stargazers_count |
+|---:|:----------------------------------------------------------------------------------------------------------------------|:--------------------|:--------------------|-------:|-------------------:|
+|  0 | [TezRomacH/python-package-template](https://api.github.com/repos/TezRomacH/python-package-template)                   | 2020-04-15 14:53:29 | 2022-07-17 04:12:04 |   1318 |                763 |
+|  1 | [audreyfeldroy/cookiecutter-pypackage](https://api.github.com/repos/audreyfeldroy/cookiecutter-pypackage)             | 2013-07-14 18:52:05 | 2022-07-17 02:31:21 |    557 |               3539 |
+|  2 | [boromir674/cookiecutter-python-package](https://api.github.com/repos/boromir674/cookiecutter-python-package)         | 2022-04-21 01:33:49 | 2022-07-04 11:48:59 |    451 |                  3 |
+|  3 | [simonw/click-app-template-repository](https://api.github.com/repos/simonw/click-app-template-repository)             | 2021-08-30 01:03:34 | 2022-07-17 02:01:39 |     12 |                  8 |
+|  4 | [timhughes/cookiecutter-poetry](https://api.github.com/repos/timhughes/cookiecutter-poetry)                           | 2020-09-22 15:08:49 | 2022-07-04 08:11:05 |    117 |                  5 |
+|  5 | [waynerv/cookiecutter-pypackage](https://api.github.com/repos/waynerv/cookiecutter-pypackage)                         | 2021-05-19 09:43:34 | 2022-07-16 03:21:52 |    984 |                 44 |
+|  6 | [zillionare/python-project-wizard](https://api.github.com/repos/zillionare/python-project-wizard)                     | 2021-04-10 14:46:32 | 2022-06-28 09:15:24 |    946 |                 55 |
+|  7 | [william-cass-wright/cookiecutter-click-app](https://api.github.com/repos/william-cass-wright/cookiecutter-click-app) | 2022-06-20 06:53:50 | 2022-07-17 05:58:45 |     37 |                  0 |
+|  8 | [william-cass-wright/cookiecutter-pypackage](https://api.github.com/repos/william-cass-wright/cookiecutter-pypackage) | 2022-07-14 08:45:28 | 2022-07-17 05:52:53 |    984 |                  0 |
