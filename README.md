@@ -31,7 +31,7 @@ conform to best practice.
 
 - modeling badges after: https://github.com/Python-Markdown/markdown/blob/master/README.md
 
-~* Documentation: <https://william-cass-wright.github.io/cookiecutter-pypackage>~
+- Documentation: <https://william-cass-wright.github.io/cookiecutter-pypackage>
 
 ## Features
 
