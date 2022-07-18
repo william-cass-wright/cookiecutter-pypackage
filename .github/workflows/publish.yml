@@ -1,4 +1,4 @@
-name: publish
+name: GitHub Pages
 
 on:
   pull_request:
@@ -7,26 +7,21 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  publish:
+  deploy:
     if: ${{ github.event.label.name == 'publish' }}
-    name: Publish documentation
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        python-versions: [3.8]
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    runs-on: ubuntu-20.04
+    permissions:
+      contents: write
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - uses: actions/setup-python@v2
+      - name: Setup Python
+        uses: actions/setup-python@v3
         with:
-          python-version: ${{ matrix.python-versions }}
+          python-version: '3.8'
 
       - name: Install dependencies
         run: |
