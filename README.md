@@ -3,9 +3,11 @@
 Cookiecutter template for a Python package, built with popular develop tools and
 conform to best practice.
 
-[![CI Status](https://github.com/william-cass-wright/cookiecutter-pypackage/actions/workflows/dev.yml/badge.svg)](https://github.com/william-cass-wright/cookiecutter-pypackage/actions/workflows/dev.yml)
-[![License](https://img.shields.io/pypi/l/ppw)](https://opensource.org/licenses/BSD-2-Clause)
-[![codecov.io](https://codecov.io/github/william-cass-wright/badges/coverage.svg?branch=main)](https://codecov.io/github/william-cass-wright/badges?branch=main)
+[![Version](http://img.shields.io/pypi/v/sys-config?color=brightgreen)](https://pypi.python.org/pypi/sys-config)
+[![CI Status](https://github.com/william-cass-wright/python-project-wizard/actions/workflows/release.yml/badge.svg)](https://github.com/william-cass-wright/python-project-wizard)
+[![Downloads](https://img.shields.io/pypi/dm/sys-config)](https://pypi.org/project/sys-config/)
+[![License](https://img.shields.io/pypi/l/sys-config)](https://opensource.org/licenses/BSD-2-Clause)
+![Python Versions](https://img.shields.io/pypi/pyversions/sys-config)
 
 
 [![Build Status][build-button]][build]
@@ -29,7 +31,7 @@ conform to best practice.
 
 - modeling badges after: https://github.com/Python-Markdown/markdown/blob/master/README.md
 
-~* Documentation: <https://william-cass-wright.github.io/cookiecutter-pypackage>~
+- Documentation: <https://william-cass-wright.github.io/cookiecutter-pypackage>
 
 ## Features
 
@@ -54,7 +56,6 @@ This tool will create Python project with the following features:
 * Host your documentation from [GitHub Pages](https://pages.github.com) with zero-config
 
 ## Quickstart
-
 Install the latest Cookiecutter if you haven't installed it yet (this requires Cookiecutter 1.4.0 or higher):
 
 ```
@@ -69,10 +70,10 @@ cookiecutter https://github.com/william-cass-wright/cookiecutter-pypackage.git
 
 Then follow **[Tutorial](docs/tutorial.md)** to finish other configurations.
 
-# Credits
-
-This repo is forked from [zillionare/python-project-wizard](https://github.com/zillionare/python-project-wizard), which originally forked from [audreyfeldroy/cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage)
-
+## Fork Lineage
+- [waynerv/cookiecutter-pypackage](https://github.com/waynerv/cookiecutter-pypackage)
+- [zillionare/python-project-wizard](https://github.com/zillionare/python-project-wizard)
+- [audreyr/cookiecutter](https://github.com/audreyr/cookiecutter)
 
 ## Other Projects Evaluated
 |    | repo                                                                                                                  | created_at          | updated_at          |   size |   stargazers_count |
@@ -86,3 +87,7 @@ This repo is forked from [zillionare/python-project-wizard](https://github.com/z
 |  6 | [zillionare/python-project-wizard](https://api.github.com/repos/zillionare/python-project-wizard)                     | 2021-04-10 14:46:32 | 2022-06-28 09:15:24 |    946 |                 55 |
 |  7 | [william-cass-wright/cookiecutter-click-app](https://api.github.com/repos/william-cass-wright/cookiecutter-click-app) | 2022-06-20 06:53:50 | 2022-07-17 05:58:45 |     37 |                  0 |
 |  8 | [william-cass-wright/cookiecutter-pypackage](https://api.github.com/repos/william-cass-wright/cookiecutter-pypackage) | 2022-07-14 08:45:28 | 2022-07-17 05:52:53 |    984 |                  0 |
+
+## Forking this repo
+- find and replace all references to `william-cass-wright/cookiecutter-pypackage`
+- add `secrets.PERSONAL_TOKEN` to github secrets for `publish` action to run
