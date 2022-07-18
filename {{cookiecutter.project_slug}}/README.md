@@ -19,10 +19,9 @@
 * Free software: {{ cookiecutter.open_source_license }}
 {% endif %}
 
-## Features
-
-* TODO
-
 ## Credits
-
-This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [waynerv/cookiecutter-pypackage](https://github.com/waynerv/cookiecutter-pypackage) project template.
+This project was created using [william-cass-wright/cookiecutter-pypackage](https://github.com/william-cass-wright/cookiecutter-pypackage)
+**Fork lineage:**
+- [waynerv/cookiecutter-pypackage](https://github.com/waynerv/cookiecutter-pypackage)
+- [zillionare/python-project-wizard](https://github.com/zillionare/python-project-wizard)
+- [audreyr/cookiecutter](https://github.com/audreyr/cookiecutter)
